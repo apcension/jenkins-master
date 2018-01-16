@@ -1,0 +1,4 @@
+git:3.6.2
+blueocean:1.3.0
+slack:2.3
+swarm:3.6
