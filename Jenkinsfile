@@ -10,7 +10,7 @@ pipeline {
     stage('Docker Build') {
       steps {
         script {
-          echo "Live Demo"
+          echo "Live Demo2"
           DOCKER_IMAGE = "${REGISTRY}/${PROJECT_NAME}"
           sh "docker build -t ${DOCKER_IMAGE}:${BUILD_NUMBER} -t ${DOCKER_IMAGE}:latest ."
         }
